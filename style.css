@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+.bold-span{
+    font-weight: 700;
+}
+.special-mail{
+    text-decoration: none;
+    color:black;
+}
+/* container */
+.container{
+    background-image: url(images/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* header */
+/* navbar */
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: whitesmoke;
+}
+.navbar-left h6{
+    font-family: 'Cabin', sans-serif;
+    color: darkslateblue;
+}
+.nav-item{
+    margin-right: 2px;
+    transition: 0.4s;
+    color: white !important;
+}
+.nav-item:hover{
+    background-color: darkturquoise;
+    border-radius: 10%;
+}
+.nav-item:hover .nav-link{
+    color: whitesmoke !important;
+}
+.nav-link{
+    color: white;
+}
+/* personal-info-section */
+.row-left{
+    background-color: lightgoldenrodyellow;
+    padding: 5% 6%;
+}
+.row-left h1{
+    font-family: cursive;
+}
+.row-left h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.row-left h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* card-section-one */
+
+/* Caraousel */
+.slider{
+    background-color: rgb(2, 3, 44);
+    padding: 5%;
+}
+.hr-style{
+    border:none;
+    border-bottom: 5px dotted white;
+}
+
+.carousel-item{
+    padding: 9% 10%;
+}
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+footer .fab,footer .fas{
+    color:white;
+}
